@@ -1,0 +1,26 @@
+class calculadora:
+    def __init__(self):
+        self.num1=int(input("Digite el primer numero"))
+        self.num2=int(input("Digite el segundo numero"))
+    def suma(self):
+        suma= self.num1+ self.num2
+        print("suma", suma)
+
+    def resta(self):
+        resta= self.num1-self.num2
+        print("resta", resta)
+
+    def multiplicacion(self):
+        multiplicacion= self.num1* self.num2
+        print("multiplicacion",multiplicacion)
+
+    def divicion(self):
+        divicion=self.num1/ self.num2
+        print("divicion",divicion)
+
+
+calcular=calculadora()
+calcular.suma()
+calcular.resta()
+calcular.multiplicacion()
+calcular.divicion()
